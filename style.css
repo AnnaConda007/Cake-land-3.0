@@ -1,0 +1,56 @@
+*{padding: 0;
+	margin: 0;
+}
+body{
+	height: 100%;
+}
+header{
+	display: grid;
+	justify-items:center;
+	grid-template-columns: repeat(2, 1fr);
+	height: 100vh;
+	background-color:rgb(214, 124, 178);
+}
+
+.logo {
+grid-area:1/1/1/2	;
+}
+nav{
+	grid-area:1/2/1/3	; 
+}
+.menu-wrap{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+
+}
+.menu_item {}
+.start-text {
+	grid-area:2/1/2/3	
+}
+.start-text_headline { }
+.start-text_subtitles { }
+.start-text_down-text { }
+.wrapper{}
+
+.about-us { }
+.about-us_headline { }
+.about-us_base-text { }
+.about-us_additional-text { }
+.photo-author_wrap { }
+.photo-author { }
+.photo-author_text { }
+.photo-author_text_headline { }
+.photo-author_text_baseline { }
+.proud { }
+.proud_headline { }
+.proud_grid1 { }
+.proud_cause-proud_headline- { }
+.proud_cause-proud_base-text { }
+.proud_cause-proud_img {
+	width: 50px;
+ }
+.proud_grid2 { }
+.proud_cause-proud_headline { }
+.proud_grid3 { }
+.proud_grid4 { }
