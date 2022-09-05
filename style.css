@@ -1,16 +1,20 @@
 *{padding: 0;
 	margin: 0;
 }
+
 body{
 	height: 100%;
 }
+
 header{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-auto-rows: 50%;
 	height: 100vh;
-	background-color: rgb(190, 74, 245);
-	background-image:url() ;
+	background-position: center;
+	background-size: cover;
+	background-color:black ;
+	background-image:url(background-img.jpg) ;
 }
 
 .logo {
@@ -19,14 +23,15 @@ margin-top: 10%;
 margin-left:20%;
 font-family: 'Sonsie One', cursive;
 font-size: 25px;
-
+color: white;
 }
+
 nav{
-	grid-area:1/4/2/5; 
+	grid-area:1/3/2/5; 
 	margin-top:10%;
 	margin-right:20%;
-	
 }
+
 .menu-wrap{
 	list-style: none;
 	display: flex;
@@ -38,18 +43,30 @@ nav{
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Sonsie One', cursive;
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-size: 20px;
 }
-
-
 .start-text {
 	grid-area:1/2/3/4;
 	text-align: center;	
+	color: white;
 }
-.start-text_headline { }
-.start-text_subtitles { }
-.start-text_down-text { }
+.start-text_headline {
+	font-family: 'Sonsie One', cursive;
+	font-size: 70px;
+	margin-top: 200px;
+	font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sonsie One', cursive;
+}
+.start-text_down-text {
+	font-size:45px;
+	margin-top: 600px;
+	 
+	
+	 
+}
+
 .wrapper{}
 
 .about-us { }
