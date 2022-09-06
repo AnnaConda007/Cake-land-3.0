@@ -21,15 +21,15 @@ header{
 grid-area:1/1/2/2;
 margin-top: 10%;
 margin-left:20%;
-font-family: 'Sonsie One', cursive;
-font-size: 25px;
+font-family: 'Qwitcher Grypen', cursive;
+font-size: 50px;
 color: white;
 }
 
 nav{
 	grid-area:1/3/2/5; 
-	margin-top:10%;
-	margin-right:20%;
+	margin-top:5%;
+	margin-right:5px;
 }
 
 .menu-wrap{
@@ -39,32 +39,25 @@ nav{
 
 }
 .menu_item {
-	font-family: 'Inter', sans-serif;
-	font-family: 'Montserrat', sans-serif;
-	font-family: 'Sonsie One', cursive;
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
 }
 .start-text {
-	grid-area:1/2/3/4;
+	grid-area:1/1/3/5;
 	text-align: center;	
-	color: white;
+	color: white;	 
 }
 .start-text_headline {
-	font-family: 'Sonsie One', cursive;
-	font-size: 70px;
-	margin-top: 200px;
-	font-family: 'Inter', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Sonsie One', cursive;
+	font-family: 'Qwitcher Grypen', cursive;
+	font-size: 200px;
+	margin-top: 5%;
 }
 .start-text_down-text {
 	font-size:45px;
-	margin-top: 600px;
-	 
-	
-	 
+	font-family: 'Jura', sans-serif;
+	margin-top: 25%;
 }
 
 .wrapper{}
