@@ -180,11 +180,31 @@ padding: 10px;
 }
 
 
-
-
-
-
-.proud_cause-proud_headline- { }
-.proud_cause-proud_base-text { }
+.link-to-catalog{
+	grid-area: 4/1/5/4;
+	background-color: brown;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-auto-rows: auto;
+}
+.cake{
+	grid-area:;
+	background-color: rgb(255, 250, 240);
+height:  300px;
+}
+.pie{
+	grid-area: ;
+	background-color: blueviolet;
+	height: 300px;
+}
+.gift{
+	grid-area: ;
+	background-color: aqua;
+	height:  300px;
+}
+.mini-cake{
+	background-color: blue;
+	grid-area: ;
+	height: 300px;
  
-.proud_cause-proud_headline { }
+}
