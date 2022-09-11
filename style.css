@@ -85,8 +85,9 @@ font-size: 19px;
 
 .text-wrap{
 	position: relative;
-	line-height:1.5 ;
+	line-height:2em ;
 	font-family: Georgia;
+	font-size:larger;
 }
 
 .about-us_base-text {
@@ -159,6 +160,10 @@ padding: 10px;
 
 .proud_element p{
 	width: 70%;
+	line-height:2em ;
+	font-family: Georgia;
+	font-size:larger;
+
 }
 .img-background{
 	position: absolute;
@@ -167,7 +172,7 @@ padding: 10px;
 	height: 100px;
 	width: 100px;
 	border-radius: 50px;
-	background-color: rgb(214, 210, 211);
+	background-color: rgb(236, 230, 231);
 	display: flex;
 	justify-content: center;
 	align-items
