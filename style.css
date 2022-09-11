@@ -162,17 +162,21 @@ padding: 10px;
 }
 .img-background{
 	position: absolute;
-	left: 80%;
+	left: 70%;
 	top: 30%;
+	height: 100px;
 	width: 100px;
 	border-radius: 50px;
-	background-color: rgb(222, 48, 100);
+	background-color: rgb(214, 210, 211);
+	display: flex;
+	justify-content: center;
+	align-items
+: center;
 }
 .proud_element img{
-	position: absolute;
-	left:50%;
-	top: 30%;
-	width: 70px;
+	width:50%;
+	height: 50%;
+	
 }
 
 
