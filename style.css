@@ -195,21 +195,28 @@ padding: 10px;
 .cake{
 	grid-area:;
 	background-color: rgb(255, 250, 240);
-height:  300px;
+	height:100%;
+	width: 100%
+;
 }
 .pie{
 	grid-area: ;
 	background-color: blueviolet;
-	height: 300px;
+	height:100%;
+	width: 100%
 }
 .gift{
 	grid-area: ;
 	background-color: aqua;
 	height:  300px;
+	height:100%;
+	width: 100%
 }
 .mini-cake{
 	background-color: blue;
 	grid-area: ;
 	height: 300px;
+	height:100%;
+	width: 100%
  
 }
