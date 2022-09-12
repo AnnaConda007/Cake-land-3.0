@@ -180,28 +180,32 @@ padding: 10px;
 }
 .proud_element img{
 	width:50%;
-	height: 50%;
-	
+	height: 50%;	
 }
 
 
 .link-to-catalog{
 	grid-area: 4/1/5/4;
-	background-color: brown;
+	background-color: rgb(226, 181, 207);
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-auto-rows: auto;
+	position: relative;
 	
 }
- 
 	.link-to-catalog_wrap-element{
 		position: relative;
 		display:grid;
 		grid-template-rows: 1fr 1fr;
 		justify-items: center;
 		color: white;
-
 	}
+	
+	.link-to-catalog_wrap-element:hover{
+	 opacity:0.7;
+	}
+
+
 .link-to-catalog h2 {
 	position: absolute;	
 	font-family: 'Open Sans', sans-serif;
@@ -211,36 +215,36 @@ padding: 10px;
 
 
 }
-.link-to-catalog p{
+.link-to-catalog button{
 	position: absolute;	
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
+	background-color: transparent;
 	font-weight: bolder;
 	grid-row-start: 2;
 	border: solid white 1px;
+	border-radius:5px;
 	padding:5px 15px ;
+	color: white;
+	overflow: hidden;
 }
 
-.cake{
-	height:100%;
-	width: 100%;
-	position: absolute;
-;
+.link-to-catalog button:hover{
+	background-color:rgb(240, 161, 211);	
 }
-.pie{
-	height:100%;
-	width: 100%;
-	position: relative;
+
+.link-to-catalog button:focus{
+	transform: translateX(10px);
 }
-.gift{
+
+.link-to-catalog_item{
 	height:100%;
 	width: 100%;
-	position: relative;
+	grid-row: 1/3;
 }
-.mini-cake{
-	
-	height:100%;
-	width: 100%;
-	position: relative;
+
  
-}
+
+ 
+
+
