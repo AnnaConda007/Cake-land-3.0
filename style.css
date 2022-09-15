@@ -31,7 +31,7 @@ nav{
 margin-left:20%;
 font-family: 'Qwitcher Grypen', cursive;
 font-size: 50px;
-grid-area:1/1/2/1 ;
+grid-area:1/1/2/3 ;
 }
 
 .menu-wrap{
@@ -108,7 +108,7 @@ padding: 10px;
 .photo-author_wrap { 
 	position: absolute;
 	left: 70%;
-	top:0px
+	top:0px;
 }
 
 .photo-author { 
@@ -297,17 +297,46 @@ ol li::marker {
 .maps-wrapper{
 	grid-area: 6/1/7/4;
 	position: relative;
+	margin-top: 5%;
 }
 
 iframe{
-	margin-top:4%;
 	width: 100%;
 }
 
-.maps-text{
-	position: absolute;
-	width: 40%;
-	height: 40%;
-	border: white;
-	z-index: 2;
+ 
+@media (max-width: 900px){
+	.link-to-catalog{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.proud{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.img-background{
+		left: 90%;
+	}
+
+	.make-order{
+		flex-direction: column;
+		align-items:center
+	}
+
+	.about-us_base-text {
+		width:100%;
+		padding: 10px;
+		}
+		
+	.about-us_additional-text {
+			width:100%;	}
+
+	.photo-author_wrap { 
+				display: none;
+}
+
+
+
 }
