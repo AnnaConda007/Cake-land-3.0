@@ -128,7 +128,6 @@ padding: 10px;
 	font-family: 'Open Sans', sans-serif;
 }
 
-
 .proud_headline { 
 	grid-area: 2/2/3/3;
 	text-align: center;
@@ -213,21 +212,26 @@ padding: 10px;
 	text-shadow: 1px 1px 2px rgb(3, 0, 7), 0 0 1em rgb(243, 152, 193), 0 0 0.2em rgb(112, 112, 234);
 }
 
-.link-to-catalog button{
+.link-to-catalog form {
 	position: absolute;	
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	background-color: transparent;
-	font-weight: bolder;
 	grid-row-start: 2;
 	border: solid white 1px;
 	border-radius:5px;
 	padding:5px 15px ;
+	box-shadow: 0 0 10px rgb(237, 159, 200);	
+}
+
+.link-to-catalog button{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	background-color: transparent;
+	font-weight: bolder;
 	color: white;
-	overflow: hidden;
-	box-shadow: 0 0 10px rgb(237, 159, 200);
+	border: none;
+	outline: none;
 	text-shadow: 1px 1px 2px rgb(3, 0, 7), 0 0 1em rgb(243, 152, 193), 0 0 0.2em rgb(112, 112, 234);
 }
+
 
 .link-to-catalog button:hover{
 	background-color:rgb(240, 161, 211);	
