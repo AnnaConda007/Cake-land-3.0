@@ -1,5 +1,9 @@
 let nav = document.querySelector("nav")
 let menu =document.querySelectorAll("a")
+let body=document.querySelector("body")
+
+
+
 
 window.addEventListener('scroll', function(){
     if(window.pageYOffset>1){
@@ -7,6 +11,7 @@ window.addEventListener('scroll', function(){
         menu.forEach((element =>element.style.color="black"))
         nav.style.color="black"
         nav.style.boxShadow="0px 2px 15px rgb(217, 205, 205)"
+        
     }else{
         nav.style.backgroundColor="transparent";
         menu.forEach((element =>element.style.color="white"))
@@ -14,6 +19,6 @@ window.addEventListener('scroll', function(){
         nav.style.boxShadow="none"
 }}
 )
-
-
-
+ 
+ 
+ 
