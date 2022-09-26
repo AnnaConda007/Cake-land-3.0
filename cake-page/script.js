@@ -21,20 +21,12 @@ window.addEventListener('scroll', function(){
 )
 
 
-let bb=document.querySelector(".add-product")
-bb.style.backgroundColor="red"
-bb.addEventListener("click", function(){alert("vbn")})
 
-
-
-
-
-/*
-body.addEventListener("click", function(e){
+window.addEventListener("click", function(e){
+   
     e.preventDefault()
     let targetElement = e.target
     if(targetElement.classList.contains("add-product")) {
 alert("vbn")
 
 }})
-*/
