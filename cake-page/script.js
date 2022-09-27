@@ -2,7 +2,7 @@ let nav = document.querySelector("nav")
 let menu =document.querySelectorAll("a")
 let body=document.querySelector("body")
 let checkbox_line=document.querySelector("checkbox-line")
-
+let wrap = document.querySelector(".wrapper") 
 
 
 window.addEventListener('scroll', function(){
@@ -22,11 +22,15 @@ window.addEventListener('scroll', function(){
 
 
 
-window.addEventListener("click", function(e){
-   
+wrap.addEventListener("click", function(e){
     e.preventDefault()
     let targetElement = e.target
     if(targetElement.classList.contains("add-product")) {
+
+
+
+
+
 alert("vbn")
 
 }})
