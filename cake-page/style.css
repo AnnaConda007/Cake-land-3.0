@@ -77,18 +77,13 @@ grid-area:1/1/2/3 ;
     margin: 0 auto;	 
 }
 
+
+
 main{
 	display: grid;
 	grid-template-columns:10% 1fr 10%;
 	grid-auto-rows: auto;
-}
- 
-.wrap-catalog-cake{
-	grid-area: 1/2/2/3;
-	display: grid;
-	grid-template-rows:  (30px, 1fr,1fr);
-	grid-template-columns: repeat(4, 1fr);
-	text-align: center;
+	
 }
 
 .menu-item-name{
@@ -96,17 +91,53 @@ main{
 	padding: 20px;
 	 font-family: 'Qwitcher Grypen', cursive;
 }
+ 
+
+
+
+.wrap-catalog-cake{
+	grid-area: 1/2/2/3;
+	text-align: center;
+
+}
+
+.catalog-box{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr) ;
+}
+
 
 .product-item {
 	margin: 2%;
 	margin-bottom: 10%;
  }
 
-.product-photo{
+.img-wrap{
 	width: 150px;
 	height: 200px;
+	margin: auto;
+}
+
+.product-photo{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position:center;
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .product-name { 
 	font-family: 'Open Sans', sans-serif;
@@ -128,14 +159,6 @@ main{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
  }
-
- 
-
-
-
-.wrap-catalog-pie { }
-.wrap-catalog-mini-cake { }
-.wrap-catalog-gift { }
 
 
 
