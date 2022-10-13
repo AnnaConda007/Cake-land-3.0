@@ -71,13 +71,48 @@ let btnMinus=document.createElement("button")
 btnMinus.innerHTML="-"
 btnMinus.classList.add("btnPlusMinus")
 productNameCopy.appendChild(btnMinus)
+let counterHTML=document.createElement("p")
+counterHTML.classList.add("counter")
+productNameCopy.appendChild(counterHTML)
+
 let strPrice =productPriceCopy.textContent;
 let numPrice= parseInt(strPrice,10)
 priceArr.push(numPrice)
 let sumPriceArr=priceArr.reduce(function(prew, item){
     return prew + item
-})
-sumPriceHTML.innerHTML=` Итого:  ${sumPriceArr} `
+},0)
+sumPriceHTML.innerHTML=` ${sumPriceArr} `
+let btnCounter=1
+btnPlus.addEventListener("click", function(){
+    priceArr.push(numPrice)
+     sumPriceArr=priceArr.reduce(function(prew, item){
+        return prew + item
+    },0)
+    btnCounter++
+    sumPriceHTML.innerHTML=` Итого:  ${sumPriceArr} `
+counterHTML.innerHTML=`${btnCounter}`
+}
+)
+
+
+
+
+btnMinus.addEventListener("click", function(){
+ 
+    i = priceArr.indexOf(numPrice);
+    if(i >= 0) {priceArr.splice(i,1)}
+     sumPriceArr=priceArr.reduce(function(prew, item){
+        return prew + item
+    },0)
+    btnCounter--
+    sumPriceHTML.innerHTML=` Итого:  ${sumPriceArr} `
+counterHTML.innerHTML=`${btnCounter}`
+if(btnCounter==0){productCopy.remove()}
+}
+)
+
+
+
 
  
         }
@@ -86,3 +121,26 @@ sumPriceHTML.innerHTML=` Итого:  ${sumPriceArr} `
 
 )
  
+
+
+
+
+
+let nop=document.querySelector(".checkout")
+
+nop.addEventListener("click", function(){alert(priceArr)})
+
+
+
+
+/*
+btnMinus.addEventListener("click", function(){
+    priceArr.pop(numPrice)
+     sumPriceArr=priceArr.reduce(function(prew, item){
+        return prew - item
+    })
+    btnCounter--
+    sumPriceHTML.innerHTML=` Итого:  ${sumPriceArr} `
+counterHTML.innerHTML=`${btnCounter}`
+}
+)*/
