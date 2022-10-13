@@ -81,7 +81,7 @@ priceArr.push(numPrice)
 let sumPriceArr=priceArr.reduce(function(prew, item){
     return prew + item
 },0)
-sumPriceHTML.innerHTML=` ${sumPriceArr} `
+sumPriceHTML.innerHTML=`Итого:  ${sumPriceArr} `
 let btnCounter=1
 btnPlus.addEventListener("click", function(){
     priceArr.push(numPrice)
@@ -107,7 +107,9 @@ btnMinus.addEventListener("click", function(){
     btnCounter--
     sumPriceHTML.innerHTML=` Итого:  ${sumPriceArr} `
 counterHTML.innerHTML=`${btnCounter}`
-if(btnCounter==0){productCopy.remove()}
+if(btnCounter==0){
+    productCopy.remove()}
+    product.classList.remove("hold")
 }
 )
 
