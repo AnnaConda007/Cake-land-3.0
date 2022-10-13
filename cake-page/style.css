@@ -123,21 +123,10 @@ main{
 	height: 100%;
 	object-fit: cover;
 	object-position:center;
+	border-radius: 10px;
 	
 }
  
-
-
-
-
-
-
-
-
-
-
-
-
 .product-name { 
 	font-family: 'Open Sans', sans-serif;
 	color: black;
@@ -158,26 +147,6 @@ main{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
  }
-
-
-
-
-.basket{
-grid-area: 	1/1/2/5;
-background-color: aqua;
-}
-
-
-
-
-
-
-
-
-
-
-
-
  
 @media (max-width: 900px){
 
@@ -254,3 +223,59 @@ background-color: aqua;
 
 
 }
+
+
+
+
+
+.basket{
+	grid-area: 	1/1/2/5;
+	background-color: bisque;
+	padding-left: 20px;
+	}
+	.productCopy{
+		width: 100%;
+		margin: 0%;
+		display: grid;
+		gap: 1em;
+		margin-bottom: 2%;
+		align-items:center;
+		grid-template-columns: 75px 70% 30% ;
+	}
+	.ptoductImgCopy{
+		width: 75px;
+		height: 100px;
+	}
+	.productNameCopy{
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+	}
+	.productPriceCopy{
+		font-weight:bold;
+	}
+
+	 .sum-price{
+	padding-left: 78%;
+	 }
+
+	 .btnPlusMinus{
+width: 15px;
+background-color: transparent;
+border: solid black 1px;
+
+margin: 3px;
+	 }
+
+	 .checkout{
+		display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	background-color: transparent;
+	border: solid black 1px;
+	border-radius:5px;
+	color: black;
+	padding:5px 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	 }
