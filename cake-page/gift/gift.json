@@ -1,0 +1,90 @@
+[
+    
+    {
+    "name":"Сладкий подарок №1",
+    "price": "1250 ",
+    "img":"gift/img/1.jpg",
+    "id":"gift1"
+   },
+
+   {
+      "name":"Сладкий подарок №2",
+      "price": "1230 ",
+      "img":"gift/img/2.jpg",
+      "id":"gift2"
+     },
+  
+     {
+      "name":"Сладкий подарок №3",
+      "price": "1050 ",
+      "img":"gift/img/3.jpg",
+      "id":"gift3"
+     },
+  
+     {
+      "name":"Сладкий подарок №4",
+      "price": "2000 ",
+      "img":"gift/img/4.jpg",
+      "id":"gift4"
+     },
+  
+     {
+      "name":"Сладкий подарок №5",
+      "price": "2660 ",
+      "img":"gift/img/5.jpg",
+      "id":"gift5"
+     },
+  
+     {
+      "name":"Сладкий подарок №6",
+      "price": "3250 ",
+      "img":"gift/img/6.jpg",
+      "id":"gift6"
+     },
+  
+     {
+      "name":"Сладкий подарок №7",
+      "price": "1500 ",
+      "img":"gift/img/7.jpg",
+      "id":"gift7"
+     },
+  
+     {
+      "name":"Сладкий подарок №8",
+      "price": "3250 ",
+      "img":"gift/img/8.jpg",
+      "id":"gift8"
+     },
+  
+     {
+      "name":"Сладкий подарок №9",
+      "price": "1150 ",
+      "img":"gift/img/9.jpg",
+      "id":"gift9"
+     },
+  
+     {
+      "name":"Сладкий подарок №10",
+      "price": "1250 ",
+      "img":"gift/img/10.jpg",
+      "id":"gift10"
+     },
+
+     {
+      "name":"Сладкий подарок №11",
+      "price": "1280",
+      "img":"gift/img/11.jpg",
+      "id":"gift11"
+     },
+      {
+    "name":"Сладкий подарок №12",
+    "price": "2400",
+    "img":"gift/img/12.jpg",
+    "id":"gift12"
+   }
+
+
+]
+
+
+

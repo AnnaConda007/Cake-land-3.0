@@ -45,10 +45,9 @@ xhr.send()
 }
 
 getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/fj1w","list",".catalog-cake-box" )
-getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/2k5k","list",".catalog-pie-box" )
-
-
-
+getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/au2k","list",".catalog-pie-box" )
+getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/8gf8","list",".catalog-pastry-box" )
+getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/hh9o","list",".catalog-gift-box" )
 
 
 wrap.addEventListener("click", function(e){
@@ -81,7 +80,6 @@ productNameCopy.appendChild(btnMinus)
 let counterHTML=document.createElement("p")
 counterHTML.classList.add("counter")
 productNameCopy.appendChild(counterHTML)
-
 let strPrice =productPriceCopy.textContent;
 let numPrice= parseInt(strPrice,10)
 priceArr.push(numPrice)
@@ -100,12 +98,7 @@ btnPlus.addEventListener("click", function(){
 counterHTML.innerHTML=`${btnCounter}`
 }
 )
-
-
-
-
 btnMinus.addEventListener("click", function(){
- 
     i = priceArr.indexOf(numPrice);
     if(i >= 0) {priceArr.splice(i,1)}
      sumPriceArr=priceArr.reduce(function(prew, item){
@@ -119,25 +112,12 @@ if(btnCounter==0){
     product.classList.remove("hold")
 }
 )
-
-
-
-
- 
         }
         product.classList.add("hold")
 }}
 
 )
  
-
-
-
-
-
-let nop=document.querySelector(".checkout")
-
-nop.addEventListener("click", function(){alert(priceArr)})
 
 
 

@@ -102,7 +102,10 @@ main{
 }
 
 .catalog-cake-box,
-.catalog-pie-box{
+.catalog-pie-box,
+.catalog-pastry-box,
+.catalog-gift-box
+{
 	display: grid;
 	grid-template-columns: repeat(4, 1fr) ;
 }

@@ -1,0 +1,90 @@
+[
+    
+    {
+    "name":"Пирожные №1",
+    "price": "1250 ",
+    "img":"pastry/img/1.jpg",
+    "id":"pastry1"
+   },
+
+   {
+      "name":"Пирожные №2",
+      "price": "1230 ",
+      "img":"pastry/img/2.jpg",
+      "id":"pastry2"
+     },
+  
+     {
+      "name":"Пирожные №3",
+      "price": "1050 ",
+      "img":"pastry/img/3.jpg",
+      "id":"pastry3"
+     },
+  
+     {
+      "name":"Пирожные №4",
+      "price": "2000 ",
+      "img":"pastry/img/4.jpg",
+      "id":"pastry4"
+     },
+  
+     {
+      "name":"Пирожные №5",
+      "price": "2660 ",
+      "img":"pastry/img/5.jpg",
+      "id":"pastry5"
+     },
+  
+     {
+      "name":"Пирожные №6",
+      "price": "3250 ",
+      "img":"pastry/img/6.jpg",
+      "id":"pastry6"
+     },
+  
+     {
+      "name":"Пирожные №7",
+      "price": "1500 ",
+      "img":"pastry/img/7.jpg",
+      "id":"pastry7"
+     },
+  
+     {
+      "name":"Пирожные №8",
+      "price": "3250 ",
+      "img":"pastry/img/8.jpg",
+      "id":"pastry8"
+     },
+  
+     {
+      "name":"Пирожные №9",
+      "price": "1150 ",
+      "img":"pastry/img/9.jpg",
+      "id":"pastry9"
+     },
+  
+     {
+      "name":"Пирожные №10",
+      "price": "1250 ",
+      "img":"pastry/img/10.jpg",
+      "id":"pastry10"
+     },
+
+     {
+      "name":"Пирожные №11",
+      "price": "1280",
+      "img":"pastry/img/11.jpg",
+      "id":"pastry11"
+     },
+      {
+    "name":"Пирожные №12",
+    "price": "2400",
+    "img":"pastry/img/12.jpg",
+    "id":"pastry12"
+   }
+
+
+]
+
+
+

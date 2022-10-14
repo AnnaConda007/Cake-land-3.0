@@ -1,0 +1,90 @@
+[
+    
+    {
+    "name":"Многоуровневый торт №1",
+    "price": "1250 ",
+    "img":"tiered-cake/img/1.jpg",
+    "id":"tiered1"
+   },
+
+   {
+      "name":"Многоуровневый торт №2",
+      "price": "1230 ",
+      "img":"tiered-cake/img/2.jpg",
+      "id":"tiered2"
+     },
+  
+     {
+      "name":"Многоуровневый торт №3",
+      "price": "1050 ",
+      "img":"tiered-cake/img/3.jpg",
+      "id":"tiered3"
+     },
+  
+     {
+      "name":"Многоуровневый торт №4",
+      "price": "2000 ",
+      "img":"tiered-cake/img/4.jpg",
+      "id":"tiered4"
+     },
+  
+     {
+      "name":"Многоуровневый торт №5",
+      "price": "2660 ",
+      "img":"tiered-cake/img/5.jpg",
+      "id":"tiered5"
+     },
+  
+     {
+      "name":"Многоуровневый торт №6",
+      "price": "3250 ",
+      "img":"tiered-cake/img/6.jpg",
+      "id":"tiered6"
+     },
+  
+     {
+      "name":"Многоуровневый торт №7",
+      "price": "1500 ",
+      "img":"tiered-cake/img/7.jpg",
+      "id":"tiered7"
+     },
+  
+     {
+      "name":"Многоуровневый торт №8",
+      "price": "3250 ",
+      "img":"tiered-cake/img/8.jpg",
+      "id":"tiered8"
+     },
+  
+     {
+      "name":"Многоуровневый торт №9",
+      "price": "1150 ",
+      "img":"tiered-cake/img/9.jpg",
+      "id":"tiered9"
+     },
+  
+     {
+      "name":"Многоуровневый торт №10",
+      "price": "1250 ",
+      "img":"tiered-cake/img/10.jpg",
+      "id":"tiered10"
+     },
+
+     {
+      "name":"Многоуровневый торт №11",
+      "price": "1280",
+      "img":"tiered-cake/img/11.jpg",
+      "id":"tiered11"
+     },
+      {
+    "name":"Многоуровневый торт №12",
+    "price": "2400",
+    "img":"tiered-cake/img/12.jpg",
+    "id":"tiered12"
+   }
+
+
+]
+
+
+
