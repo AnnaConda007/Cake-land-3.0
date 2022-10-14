@@ -20,17 +20,17 @@ window.addEventListener('scroll', function(){
         nav.style.boxShadow="none"
 }}}
 )
-
-
-const reguest="http://myjson.dit.upm.es/api/bins/2k5k"
+ let nameBlock
+function getXMLHttpRequest(url,nameBlock,classNameBlock ){
+    const reguest=url
 const xhr = new XMLHttpRequest()
-let list = document.querySelector(".catalog-box")
+nameBlock  = document.querySelector(classNameBlock)
 xhr.open("GET", reguest)
 xhr.responseType="json"
 xhr.onload = function() {
    let response=xhr.response
    for(let key in response){
-       list.innerHTML+=`
+    nameBlock.innerHTML+=`
        <div class="product-item" data-id="${response[key].id}">
        <div class="img-wrap">
        <img class="product-photo" src="${response[key].img}" alt="foto">
@@ -42,6 +42,13 @@ xhr.onload = function() {
    }
  }
 xhr.send()
+}
+
+getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/fj1w","list",".catalog-cake-box" )
+getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/2k5k","list",".catalog-pie-box" )
+
+
+
 
 
 wrap.addEventListener("click", function(e){
