@@ -45,13 +45,12 @@ xhr.send()
 }
 
 getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/fj1w","list",".catalog-cake-box" )
-getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/au2k","list",".catalog-pie-box" )
+getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/au2k","list",".catalog-tired-box" )
 getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/8gf8","list",".catalog-pastry-box" )
 getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/hh9o","list",".catalog-gift-box" )
 
 
 wrap.addEventListener("click", function(e){
-    e.preventDefault()
     let targetElement = e.target
     if(targetElement.classList.contains("add-product")) {
     let productId=targetElement.closest(".product-item").dataset.id
@@ -119,17 +118,3 @@ if(btnCounter==0){
 )
  
 
-
-
-
-/*
-btnMinus.addEventListener("click", function(){
-    priceArr.pop(numPrice)
-     sumPriceArr=priceArr.reduce(function(prew, item){
-        return prew - item
-    })
-    btnCounter--
-    sumPriceHTML.innerHTML=` Итого:  ${sumPriceArr} `
-counterHTML.innerHTML=`${btnCounter}`
-}
-)*/
