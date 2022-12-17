@@ -44,10 +44,10 @@ xhr.onload = function() {
 xhr.send()
 }
 
-getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/fj1w","list",".catalog-cake-box" )
-getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/au2k","list",".catalog-tired-box" )
-getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/8gf8","list",".catalog-pastry-box" )
-getXMLHttpRequest("http://myjson.dit.upm.es/api/bins/hh9o","list",".catalog-gift-box" )
+getXMLHttpRequest("./cake/cake.json","list",".catalog-cake-box" )
+getXMLHttpRequest("./tiered-cake/tiered-cake.json","list",".catalog-tiered-box" ) 
+getXMLHttpRequest("./pastry/pastry-cake.json","list",".catalog-pastry-box" ) 
+getXMLHttpRequest("./gift/gift.json","list",".catalog-gift-box" )
 
 
 wrap.addEventListener("click", function(e){
