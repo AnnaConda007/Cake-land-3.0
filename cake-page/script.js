@@ -49,8 +49,6 @@ getXMLHttpRequest("./tiered-cake/tiered-cake.json","list",".catalog-tiered-box" 
 getXMLHttpRequest("./pastry/pastry-cake.json","list",".catalog-pastry-box" ) 
 getXMLHttpRequest("./gift/gift.json","list",".catalog-gift-box" )
 
-<<<<<<< Updated upstream
-=======
 /*
 
 if (localStorage.getItem('arrItemsId') === null) {
@@ -73,8 +71,6 @@ alert(apple); // Apple
 
 f()
 */ // 
-
->>>>>>> Stashed changes
 
 wrap.addEventListener("click", function(e){
     let targetElement = e.target

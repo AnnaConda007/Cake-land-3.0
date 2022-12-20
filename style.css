@@ -160,6 +160,7 @@ padding: 10px;
 	position: relative;
 	margin: 30px;
 	padding: 0;
+	left: 25%;
 }
 
 .proud_element h3{
@@ -343,7 +344,14 @@ font-size: 50px;
 
 
  
-@media (max-width: 1200px){
+@media (max-width: 900px)
+{
+
+
+	.proud_element{
+		left: 0%;
+	}
+
 	.link-to-catalog{
 		display: flex;
 		flex-wrap: wrap;
