@@ -49,6 +49,32 @@ getXMLHttpRequest("./tiered-cake/tiered-cake.json","list",".catalog-tiered-box" 
 getXMLHttpRequest("./pastry/pastry-cake.json","list",".catalog-pastry-box" ) 
 getXMLHttpRequest("./gift/gift.json","list",".catalog-gift-box" )
 
+<<<<<<< Updated upstream
+=======
+/*
+
+if (localStorage.getItem('arrItemsId') === null) {
+    localStorage.setItem('arrItemsId', '[]');
+}
+let arrItemsId = JSON.parse(localStorage.getItem('arrItemsId'))
+wrap.addEventListener("click", function(e){
+    let targetElement = e.target
+    if(targetElement.classList.contains("add-product")) {
+    let productId=targetElement.closest(".product-item").dataset.id
+    arrItemsId.push(productId)
+    arrItemsId.push("искать")
+        localStorage.setItem('arrItemsId', JSON.stringify(arrItemsId))
+
+        const apple = arrItemsId.find(item => item === 'искать');
+alert(apple); // Apple
+}})
+
+ let f = ()=> alert("5")
+
+f()
+*/ // 
+
+>>>>>>> Stashed changes
 
 wrap.addEventListener("click", function(e){
     let targetElement = e.target
