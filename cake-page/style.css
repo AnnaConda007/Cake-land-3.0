@@ -1,285 +1,269 @@
-*{padding: 0;
-	margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-	height: 100%;
+body {
+  height: 100%;
 }
 
-header{
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: 60px 1fr 1fr;
-	height: 80vh;
-	background-position: center;
-	background-size: cover;
-	background-color:black ;
-	background-image:url(background-img.jpg) ;
-	color: white;
+header {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 60px 1fr 1fr;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  background-image: url(background-img.jpg);
+  color: white;
 }
-nav{
-	grid-area:1/1/2/5; 
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	z-index:1;
-	width: 100%;
-	position:fixed;
-
-	}
-
-	.logo {
-margin-left:20%;
-font-family: 'Qwitcher Grypen', cursive;
-font-size: 50px;
-grid-area:1/1/2/3 ;
+nav {
+  grid-area: 1/1/2/5;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  z-index: 1;
+  width: 100%;
+  position: fixed;
 }
 
-.menu-wrap{
-	list-style: none;
-	grid-area:1/3/1/5  ;
-	display: flex;
-	justify-content: space-around;
-	align-items:center;
+.logo {
+  margin-left: 20%;
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 50px;
+  grid-area: 1/1/2/3;
+}
+
+.menu-wrap {
+  list-style: none;
+  grid-area: 1/3/1/5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 .menu_item {
-	text-decoration: none;
-	 color: white;
-	font-size: 15px;
-	font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
 }
 
-
-#input-checkbox{
-	display: none;
+#input-checkbox {
+  display: none;
 }
 
-.label-checkbox{
-	opacity:0 ;
+.label-checkbox {
+  opacity: 0;
 }
-
 
 .start-text {
-	grid-area:1/1/3/5;
-	text-align: center;	 
+  grid-area: 1/1/3/5;
+  text-align: center;
 }
 .start-text_headline {
-	font-family: 'Qwitcher Grypen', cursive;
-	font-size: 1000%;
-	margin-top: 3%;
+  font-family: "Qwitcher Grypen", cursive;
+  font-size: 1000%;
+  margin-top: 3%;
 }
 .start-text_down-text {
-	font-size:45px;
-	font-family: 'Jura', sans-serif;
-	position: absolute;
-	bottom: 20%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;	 
+  font-size: 45px;
+  font-family: "Jura", sans-serif;
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
-
-
-main{
-	display: grid;
-	grid-template-columns:10% 1fr 10%;
-	grid-auto-rows: auto;
-	
+main {
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+  grid-auto-rows: auto;
 }
 
-.menu-item-name{
-	grid-area: 1/1/2/5;
-	padding: 20px;
-	 font-family: 'Qwitcher Grypen', cursive;
+.menu-item-name {
+  grid-area: 1/1/2/5;
+  padding: 20px;
+  font-family: "Qwitcher Grypen", cursive;
 }
- 
 
-
-
-.wrap-catalog-cake{
-	grid-area: 1/2/2/3;
-	text-align: center;
-
+.wrap-catalog-cake {
+  grid-area: 1/2/2/3;
+  text-align: center;
 }
 
 .catalog-cake-box,
 .catalog-tiered-box,
 .catalog-pastry-box,
-.catalog-gift-box
-{
-	display: grid;
-	grid-template-columns: repeat(4, 1fr) ;
+.catalog-gift-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
-
 
 .product-item {
-	margin: 2%;
-	margin-bottom: 10%;
- }
-
-.img-wrap{
-	width: 150px;
-	height: 200px;
-	margin: auto;
+  margin: 2%;
+  margin-bottom: 10%;
 }
 
-.product-photo{
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	object-position:center;
-	border-radius: 10px;
-	
+.img-wrap {
+  width: 150px;
+  height: 200px;
+  margin: auto;
 }
- 
-.product-name { 
-	font-family: 'Open Sans', sans-serif;
-	color: black;
+
+.product-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
 }
-.price { 
-	font-family: 'Open Sans', sans-serif;
+
+.product-name {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+}
+.price {
+  font-family: "Open Sans", sans-serif;
 }
 .add-product {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 5px;
-	background-color: transparent;
-	border: solid black 1px;
-	border-radius:5px;
-	color: black;
-	padding:5px 15px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
- }
- 
-@media (max-width: 900px){
-
-	.wrap-catalog-cake  { 
-			grid-area: 1/1/2/4;}
-
-			.logo{
-				display: none;
-				}
-				 
-				.menu-wrap{
-					display: none;
-					grid-area: 1/1/4/6;
-					width: 50%;
-					height:100vh;
-					background-color:rgb(43, 37, 37);
-					text-align: center;
-				 
-					 
-					
-				
-				}
-				
-				.menu-wrap li{
-					padding:20px ;
-					margin-top: 4px;
-				}
-				
-				.menu-wrap li:hover {
-					background-color:rgba(240, 152, 212,0.1)
-				
-				}
-				
-				
-				
-				#input-checkbox:checked ~ .menu-wrap{
-				display: block;
-				}
-				
-				.label-checkbox{
-					grid-area: 1/1/2/2;	
-					opacity:1;
-					position: relative;
-					height: 26px;
-					width: 26px;
-					cursor: pointer;
-					z-index: 1;
-					left: 0;
-					margin: 10px;
-					margin-top: 20px;
-				
-				}
-				
-				.checkbox-line,
-				.checkbox-line::before,
-				.checkbox-line::after{
-					display: block;
-					position: absolute;
-					width: 100%;
-					height: 4px;
-					background-color: black
-				
-				  }
-				 
-				  .checkbox-line::before{
-					content: '';
-					top: 16px;
-				  }
-				  .checkbox-line::after{
-					content: '';
-					top:8px;
-				  }
-				
-
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border: solid black 1px;
+  border-radius: 5px;
+  color: black;
+  padding: 5px 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
+@media (max-width: 900px) {
+ 
 
+  .catalog-cake-box,
+  .catalog-tiered-box,
+  .catalog-pastry-box,
+  .catalog-gift-box {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+  }
 
+  .img-wrap {
+	width: 300px;
+	height: 400px;
+	margin: auto;
+  }
 
+  .logo {
+    display: none;
+  }
 
-.basket{
-	grid-area: 	1/1/2/5;
-	background-color: bisque;
-	padding-left: 20px;
-	}
-	.productCopy{
-		width: 100%;
-		margin: 0%;
-		display: grid;
-		gap: 1em;
-		margin-bottom: 2%;
-		align-items:center;
-		grid-template-columns: 75px 70% 30% ;
-	}
-	.ptoductImgCopy{
-		width: 75px;
-		height: 100px;
-	}
-	.productNameCopy{
-font-family: 'Open Sans', sans-serif;
-font-size: 16px;
-	}
-	.productPriceCopy{
-		font-weight:bold;
-	}
+  .menu-wrap {
+    display: none;
+    grid-area: 1/1/4/6;
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(43, 37, 37);
+    text-align: center;
+  }
 
-	 .sum-price{
-	padding-left: 78%;
-	 }
+  .menu-wrap li {
+    padding: 20px;
+    margin-top: 4px;
+  }
 
-	 .btnPlusMinus{
-width: 15px;
-background-color: transparent;
-border: solid black 1px;
+  .menu-wrap li:hover {
+    background-color: rgba(240, 152, 212, 0.1);
+  }
 
-margin: 3px;
-	 }
+  #input-checkbox:checked ~ .menu-wrap {
+    display: block;
+  }
 
-	 .checkout{
-		display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 5px;
-	background-color: transparent;
-	border: solid black 1px;
-	border-radius:5px;
-	color: black;
-	padding:5px 15px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	 }
+  .label-checkbox {
+    grid-area: 1/1/2/2;
+    opacity: 1;
+    position: relative;
+    height: 26px;
+    width: 26px;
+    cursor: pointer;
+    z-index: 1;
+    left: 0;
+    margin: 10px;
+    margin-top: 20px;
+  }
+
+  .checkbox-line,
+  .checkbox-line::before,
+  .checkbox-line::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: black;
+  }
+
+  .checkbox-line::before {
+    content: "";
+    top: 16px;
+  }
+  .checkbox-line::after {
+    content: "";
+    top: 8px;
+  }
+}
+
+.basket {
+  grid-area: 1/1/2/5;
+  background-color: bisque;
+  padding-left: 20px;
+}
+.productCopy {
+  width: 100%;
+  margin: 0%;
+  display: grid;
+  gap: 1em;
+  margin-bottom: 2%;
+  align-items: center;
+  grid-template-columns: 75px 70% 30%;
+}
+.ptoductImgCopy {
+  width: 75px;
+  height: 100px;
+}
+.productNameCopy {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.productPriceCopy {
+  font-weight: bold;
+}
+
+.sum-price {
+  padding-left: 78%;
+}
+
+.btnPlusMinus {
+  width: 15px;
+  background-color: transparent;
+  border: solid black 1px;
+
+  margin: 3px;
+}
+
+.checkout {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border: solid black 1px;
+  border-radius: 5px;
+  color: black;
+  padding: 5px 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
