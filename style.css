@@ -343,7 +343,10 @@ font-size: 50px;
 }
 
 
- 
+@media (max-width: 1300px)
+{.img-background{
+		left:-35%;}
+}
 @media (max-width: 900px)
 {
 
